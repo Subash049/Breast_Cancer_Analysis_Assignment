@@ -24,20 +24,20 @@ This project leverages machine learning techniques, specifically Artificial Neur
 ## Project Structure
 
 - ├── data_preparation.py      
-  - # Loads and preprocesses dataset
+  - Loads and preprocesses dataset
 - ├── feature_selection.py      
-  - # Performs feature selection
+  - Performs feature selection
 - ├── model_selection.py        
-  - # Hyperparameter tuning with Grid Search
-  - # ANN training and evaluation
+  - Hyperparameter tuning with Grid Search
+  - ANN training and evaluation
 - ├── streamlit.py
-  - # Interactive Streamlit app
+  - Interactive Streamlit app
 - ├── breast_cancer_data_.csv  # 
-  - # Preprocessed dataset
+  - Preprocessed dataset
 - ├── requirements.txt          
-  - # Project dependencies
+  - Project dependencies
 - └── README.md                 
-  - # Project documentation
+  - Project documentation
 
 ## Requirements
 
