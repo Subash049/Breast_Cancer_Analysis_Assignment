@@ -1,6 +1,6 @@
-﻿# ANN_Breast_Cancer_Analysis
+﻿# Breast_Cancer_Analysis
 
-This project involves data preprocessing, feature selection, ANN model building, and creating a Streamlit app for predicting breast cancer.
+This project leverages machine learning techniques, specifically Artificial Neural Networks (ANN), for predicting breast cancer malignancy using the popular Breast Cancer Wisconsin dataset. It also includes a user-friendly Streamlit web application for interaction and prediction.
 
 ## Setup
 
@@ -8,26 +8,30 @@ This project involves data preprocessing, feature selection, ANN model building,
 - Create a virtual environment and install required packages.(On Windows use venv\Scripts\activate)
 - python -m venv venv
 - pip install -r requirements.txt
-
-
-## Usage
-
 - Run the Streamlit app locally: ( streamlit run streamlit.py
 
 ## Features
 
 - **Data Preprocessing and Feature Selection:** The project includes loading the breast cancer dataset, handling missing values, and selecting the most relevant features using `SelectKBest`.
-- **ANN Model Building and Evaluation:** A neural network model is built using `MLPClassifier` from `sklearn`. The model's hyperparameters are optimized using Grid Search Cross-Validation to improve performance.
-- **Streamlit App for User Interaction and Predictions:** An interactive web application using Streamlit allows users to input feature values and get predictions about whether a tumor is malignant or benign.
+- **Optimized ANN Model*
+  - Hyperparameter Tuning: Grid Search Cross-Validation optimizes hidden layers, activation functions, 
+    solvers, and regularization.
+  - Training: Implements MLPClassifier from scikit-learn for accurate prediction.
+- **Interactive Predictions using Streamlit App*
+  - The Streamlit app provides a user-friendly interface for predictions about whether a tumor is malignant 
+    or benign. based on user inputs.
 
 ## Project Structure
 
-- `data_preparation.py`: Script for loading and preparing the dataset.
-- `feature_selection.py`: Script for feature selection.
-- `model_selection.py`: Script for tuning ANN model hyperparameters using Grid Search,Script for creating and training the ANN model
-- `streamlit.py`: Streamlit app for user interaction and predictions.
-- `breast_cancer_data.csv`: Preprocessed dataset.
-- `README.md`: Documentation of the project.
+├── data_preparation.py       # Loads and preprocesses dataset
+├── feature_selection.py      # Performs feature selection
+├── model_selection.py        # Hyperparameter tuning with Grid Search
+├── ann_model.py              # ANN training and evaluation
+├── streamlit.py              # Interactive Streamlit app
+├── breast_cancer_data.csv    # Raw dataset (if needed)
+├── breast_cancer_data_prepared.csv  # Preprocessed dataset
+├── requirements.txt          # Project dependencies
+└── README.md                 # Project documentation
 
 ## Requirements
 
