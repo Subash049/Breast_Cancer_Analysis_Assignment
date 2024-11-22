@@ -37,4 +37,8 @@ This project involves data preprocessing, feature selection, ANN model building,
 - pandas
 - joblib
 
+![Output](https://github.com/user-attachments/assets/33756f6b-7d43-422b-be18-e541101ab9eb)
+![Output1](https://github.com/user-attachments/assets/1de0c3ef-b8c2-4621-8ae5-13a6b74c2c30)
+
+
 
